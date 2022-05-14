@@ -13,5 +13,6 @@ int main()
     struct employee e1;
     e1.id = 12;
     e1.marks = 34;
+    printf("e1 got %d marks\n",e1.marks);
     return 0;
 }
