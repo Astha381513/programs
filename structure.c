@@ -1,18 +1,23 @@
 
 #include <stdio.h>
-struct employee
+struct student
 {
 int id;
-float marks;
+int marks;
+char fav_char;
 
 };
-struct employee e1;
 
 int main()
 {
-    struct employee e1;
-    e1.id = 12;
-    e1.marks = 34;
-    printf("e1 got %d marks\n",e1.marks);
+    struct student disha;
+    disha.id = 12;
+    disha.marks = 66;
+    disha.fav_char = 'p';
+    printf("disha got %d marks\n",disha.marks);
+        printf("disha's %d id\n",disha.id);
+                printf("disha's %d fav_char\n",disha.fav_char);
+
+
     return 0;
 }
